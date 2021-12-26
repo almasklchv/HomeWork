@@ -1,6 +1,6 @@
 // автор кода Алмас Киличов
 package dec22.Minecraft;
-
+import java.io.*;
 import java.util.*;
 // изменено с помощью git
 public class Play {
