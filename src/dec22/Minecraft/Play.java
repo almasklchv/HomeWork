@@ -1,13 +1,13 @@
 // автор кода Алмас Киличов
 package dec22.Minecraft;
-import java.io.*;
+
 import java.util.*;
-// изменено с помощью git
+
 public class Play {
     public static void main(String[] args) {
         Player player = new Player();
         Scanner input = new Scanner(System.in);
-        player.setHeart(10);
+        player.setHeart(10); // задаем 10 жизней по умолчанию
         boolean isOn = true;
 
         System.out.println("Добро пожаловать в консольную пародию Minecraft!\nАльфа-версия 0.0.1 (Много чего не сделано и не доработано)");
