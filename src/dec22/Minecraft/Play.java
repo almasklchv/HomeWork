@@ -2,7 +2,7 @@
 package dec22.Minecraft;
 
 import java.util.*;
-
+// изменено с помощью git
 public class Play {
     public static void main(String[] args) {
         Player player = new Player();
