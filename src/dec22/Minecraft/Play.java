@@ -1,11 +1,11 @@
 // автор кода Алмас Киличов
 package dec22.Minecraft;
 
-import java.util.*;
+import java.util.*; // импорт
 
 public class Play {
     public static void main(String[] args) {
-        Player player = new Player();
+        Player player = new Player(); // создаем объект игрока
         Scanner input = new Scanner(System.in);
         player.setHeart(10); // задаем 10 жизней по умолчанию
         boolean isOn = true;
