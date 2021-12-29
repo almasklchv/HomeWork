@@ -2,6 +2,10 @@ public class Person {
     private String name;
     private int age;
 
+    public Person() {
+        this.name = "default";
+    }
+
     // getter
     public String getName() {
         return name;
